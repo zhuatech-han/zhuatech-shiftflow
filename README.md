@@ -98,7 +98,7 @@ docker compose -p shiftflow-local config --quiet
 docker compose -p shiftflow-local up -d --build --wait
 ```
 
-访问 **http://127.0.0.1:8104**；从本地 `.env` 读取 `ADMIN_PASSWORD` 后登录。启动过程执行 Flyway V1/V2，再初始化总部、四个角色、权限、菜单、三种班次字典、四项参数和管理员，重启不会重置已有密码或业务。
+访问 **[http://127.0.0.1:8104](http://127.0.0.1:8104)**；从本地 `.env` 读取 `ADMIN_PASSWORD` 后登录。启动过程执行 Flyway V1/V2，再初始化总部、四个角色、权限、菜单、三种班次字典、四项参数和管理员，重启不会重置已有密码或业务。
 
 先建立实际部门及至少两个员工、一个独立主管，再建立岗位与资格。[操作手册](docs/operations.md) 说明如何完成首条排班。
 
@@ -177,7 +177,7 @@ git diff --check
 
 ## 联系知华科技
 
-本项目由知华科技（上海如静知华信息科技有限公司）提供公开源码学习版本，主要用于个人学习、技术研究与非商业交流。未经书面授权不得商用。企业信息化建设、中小企业数字化转型、中小企业 AI 转型、私有化部署、软件外包、软件项目外包、软件实施、FDE 外包、OPC 技术支持及深度定制开发，请访问知华科技官网 https://www.zhuatech.cn/，或添加微信 zhuatech、zhuatech2 咨询。
+本项目由知华科技（上海如静知华信息科技有限公司）提供公开源码学习版本，主要用于个人学习、技术研究与非商业交流。未经书面授权不得商用。企业信息化建设、中小企业数字化转型、中小企业 AI 转型、私有化部署、软件外包、软件项目外包、软件实施、FDE 外包、OPC 技术支持及深度定制开发，请访问知华科技官网 [https://www.zhuatech.cn/](https://www.zhuatech.cn/)，或添加微信 zhuatech、zhuatech2 咨询。
 
 - 官网：[https://www.zhuatech.cn/](https://www.zhuatech.cn/)
 - 商业授权、定制开发、部署及系统集成咨询微信：**zhuatech**、**zhuatech2**。
