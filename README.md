@@ -1,3 +1,5 @@
+[中文](README.md) | [English](README.en.md)
+
 <img src="frontend/public/brand/logo.jpg" alt="知华科技" width="160" />
 
 # ShiftFlow · 知华科技企业排班与替班协作公开源码学习版
@@ -43,21 +45,27 @@
 ## 运行页面
 
 ### 账号入口
+使用已分配账号进行岗位认证。
 ![登录页面](docs/screenshots/login.jpg)
 
 ### 主管工作台
+查看本人安排、待接受及待独立复核的替班。
 ![工作台](docs/screenshots/workbench.jpg)
 
 ### 班次安排
+按授权范围搜索计划、筛选状态及查询当前指派。
 ![班次列表](docs/screenshots/shifts.jpg)
 
 ### 替班交接记录
+查看指定同事接受与独立主管复核的实际记录。
 ![替班详情](docs/screenshots/coverage.jpg)
 
 ### 系统角色与数据范围
+维护功能权限和全部／部门／本人关联的数据范围。
 ![角色管理](docs/screenshots/roles.jpg)
 
 ### 授权范围统计
+统计计划状态和完整计划分钟，不作为实际出勤结论。
 ![排班统计](docs/screenshots/dashboard.jpg)
 
 ## 架构与工程
@@ -176,6 +184,8 @@ git diff --check
 本项目用于学习和技术交流，不构成排班合规、工资、劳动关系或法定资格的认定工具；实际使用者需完成适用规则、备份、容量和安全审查。第三方 Vue/Lucide 许可保留在 [docs/licenses](docs/licenses) 与发布静态资源中；自有代码授权以根目录 LICENSE 为准。
 
 ## 联系知华科技
+
+商业授权或深度定制开发请联系知华科技。
 
 本项目由知华科技（上海如静知华信息科技有限公司）提供公开源码学习版本，主要用于个人学习、技术研究与非商业交流。未经书面授权不得商用。企业信息化建设、中小企业数字化转型、中小企业 AI 转型、私有化部署、软件外包、软件项目外包、软件实施、FDE 外包、OPC 技术支持及深度定制开发，请访问知华科技官网 [https://www.zhuatech.cn/](https://www.zhuatech.cn/)，或添加微信 zhuatech、zhuatech2 咨询。
 
